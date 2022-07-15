@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dosis:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/com.css">
+
+    <!-- Título da Página -->
+    <title>Método dos 7 minutos</title>
+    
+    <style type="text/css">
+      body {
+       color: white;
+    background-image: url(data:image/jpeg;base64,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);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    </style>
+
+  </head>
+  <body>
+    
+    <header class="py-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <!-- Imagem Ultrasecreto -->
+            <img class="./assets/img/ultrasecreto.svg">
+
+            <!-- Headline -->
+            <h3 class="my-4">Uma Simples Vitamina Capaz De Mudar sua Vida!</b></h3>
+
+            <!-- VSL -->
+            <div id="vid_62d1cb378eb617000a2a0994" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_62d1cb378eb617000a2a0994" src="https://images.converteai.net/f09caefc-54de-4454-a8f4-74b9698c2204/players/62d1cb378eb617000a2a0994/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_62d1cb378eb617000a2a0994" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_62d1cb378eb617000a2a0994">var s=document.createElement("script");s.src="https://scripts.converteai.net/f09caefc-54de-4454-a8f4-74b9698c2204/players/62d1cb378eb617000a2a0994/player.js",s.async=!0,document.head.appendChild(s);</script>
+            <!-- Botão -->
+            <div id="cta1" class="mt-4 d-none">
+              <a href="https://pay.kiwify.com.br/8yj82EU" class="a-btn" style="text-decoration: none;">
+                <span class="span-btn">QUERO COMPRAR!</span>
+                <span class="span-btn2">(atenção: vagas limitadas)</span>
+              </a>
+            </div>
+
+            <!-- Termos de Uso e Política de Privacidade -->
+            <div class="text-white mt-4"><a href="termos.html" class="text-white">Termos de Uso</a> | <a href="privacidade.html" class="text-white">Política de Privacidade</a></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <script type="text/javascript">
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none")},1351200); // temporização da Call to Action (em milissegundos)
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./assets/js/com.js"></script>
+  </body>
+</html>
